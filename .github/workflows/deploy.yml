@@ -29,10 +29,15 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          echo "Node: $(node --version)"
+          echo "Npm: $(npm --version)"
+          npm config list
+          npm install 2>&1
+          echo "EXIT: $?"
 
       - name: Build Quartz
-        run: npm run quartz build
+        run: npx quartz build 2>&1
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
