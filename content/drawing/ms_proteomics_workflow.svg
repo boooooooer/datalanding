@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="700" viewBox="0 0 1200 700" displayInline="False">
+<defs>
+</defs>
+<rect x="0" y="0" width="1200" height="700" fill="#F7F4EF" />
+<text x="600.0" y="30" font-size="22" fill="#2C3E50" font-family="sans-serif" font-weight="bold" text-anchor="middle">Mass Spectrometry-Based Proteomics Pipeline</text>
+<text x="600.0" y="52" font-size="13" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Bottom-up Proteomics: From Cell Culture to Differential Abundance</text>
+<circle cx="72" cy="385" r="18" fill="#7B9BA6" fill-opacity="0.7" />
+<circle cx="95" cy="378" r="14" fill="#8AA79C" fill-opacity="0.7" />
+<circle cx="98" cy="392" r="12" fill="#B8956A" fill-opacity="0.7" />
+<circle cx="65" cy="370" r="10" fill="#7B9BA6" fill-opacity="0.7" />
+<text x="80" y="330" font-size="13" fill="#2C3E50" font-family="sans-serif" font-weight="bold" text-anchor="middle">Cell Culture</text>
+<text x="80" y="312" font-size="10" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Cell Line / Tissue</text>
+<path d="M130,380 L140,380" stroke="#7B9BA6" stroke-width="2.5" fill="none" />
+<path d="M140,380 L131.8959760788259,383.9146898070011 L131.8959760788259,376.0853101929989 Z" fill="#7B9BA6" />
+<rect x="122.0" y="348" width="140" height="80" fill="rgba(0,0,0,0.05)" rx="8" />
+<rect x="120.0" y="350" width="140" height="80" fill="#FFFFFF" rx="8" />
+<text x="190" y="385" font-size="12" fill="#7B9BA6" font-family="sans-serif" font-weight="bold" text-anchor="middle">Protein Extraction</text>
+<text x="190" y="360" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Lysis / Denaturation</text>
+<text x="190" y="342" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Reduction / Alkylation</text>
+<text x="190" y="324" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Precipitation / Cleanup</text>
+<path d="M260,380 L295,500" stroke="#C47A6B" stroke-width="2.5" fill="none" />
+<path d="M295,500 L288.9727710873502,493.31625018163317 L296.48897551679227,491.1240238897126 Z" fill="#C47A6B" />
+<path d="M260,380 L295,260" stroke="#6B8F9B" stroke-width="2.5" fill="none" />
+<path d="M295,260 L296.48897551679227,268.8759761102874 L288.9727710873502,266.68374981836683 Z" fill="#6B8F9B" />
+<rect x="297.0" y="463" width="170" height="85" fill="rgba(0,0,0,0.05)" rx="8" />
+<rect x="295.0" y="465" width="170" height="85" fill="#F5EEEC" rx="8" />
+<text x="380" y="502" font-size="13" fill="#C47A6B" font-family="sans-serif" font-weight="bold" text-anchor="middle">Drug Treatment</text>
+<text x="380" y="480" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Ligand / Inhibitor Incubation</text>
+<text x="380" y="460" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Target Binding / Conformational Change</text>
+<text x="380" y="442" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">n = 3 biological replicates</text>
+<rect x="297.0" y="223" width="170" height="85" fill="rgba(0,0,0,0.05)" rx="8" />
+<rect x="295.0" y="225" width="170" height="85" fill="#ECF0F2" rx="8" />
+<text x="380" y="262" font-size="13" fill="#6B8F9B" font-family="sans-serif" font-weight="bold" text-anchor="middle">Vehicle Control</text>
+<text x="380" y="240" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">DMSO / Buffer Only</text>
+<text x="380" y="220" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">No Target Engagement</text>
+<text x="380" y="202" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">n = 3 biological replicates</text>
+<path d="M465,500 L530,400" stroke="#C47A6B" stroke-width="2.5" fill="none" />
+<path d="M530,400 L528.8656480484908,408.92822746406625 L522.3011546915363,404.66130678204587 Z" fill="#C47A6B" />
+<path d="M465,260 L530,360" stroke="#6B8F9B" stroke-width="2.5" fill="none" />
+<path d="M530,360 L522.3011546915363,355.33869321795413 L528.8656480484908,351.07177253593375 Z" fill="#6B8F9B" />
+<circle cx="550" cy="380" r="16" fill="#B8956A" fill-opacity="0.9" />
+<text x="550" y="382" font-size="10" fill="#FFFFFF" font-family="sans-serif" font-weight="bold" text-anchor="middle">Merge</text>
+<text x="550" y="355" font-size="8" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Parallel Processing</text>
+<path d="M566,380 L620,380" stroke="#7B9BA6" stroke-width="2.5" fill="none" />
+<path d="M620,380 L611.8959760788259,383.9146898070011 L611.8959760788259,376.0853101929989 Z" fill="#7B9BA6" />
+<rect x="592.0" y="343" width="140" height="95" fill="rgba(0,0,0,0.05)" rx="8" />
+<rect x="590.0" y="345" width="140" height="95" fill="#FFFFFF" rx="8" />
+<text x="660" y="388" font-size="12" fill="#7B9BA6" font-family="sans-serif" font-weight="bold" text-anchor="middle">Trypsin Digestion</text>
+<text x="660" y="365" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Enzymatic Cleavage</text>
+<text x="660" y="347" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Peptide Mixture</text>
+<text x="660" y="329" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">~100K peptides/sample</text>
+<text x="660" y="311" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">C18 Desalting / Cleanup</text>
+<path d="M730,380 L760,380" stroke="#7B9BA6" stroke-width="2.5" fill="none" />
+<path d="M760,380 L751.8959760788259,383.9146898070011 L751.8959760788259,376.0853101929989 Z" fill="#7B9BA6" />
+<rect x="747.0" y="473" width="130" height="70" fill="rgba(0,0,0,0.05)" rx="8" />
+<rect x="745.0" y="475" width="130" height="70" fill="#E8E3DB" rx="8" />
+<text x="810" y="505" font-size="11" fill="#7B9BA6" font-family="sans-serif" font-weight="bold" text-anchor="middle">LC Separation</text>
+<text x="810" y="485" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">RP-HPLC Gradient</text>
+<text x="810" y="465" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Peptide Fractionation</text>
+<path d="M810,440 L810,430" stroke="#8AA79C" stroke-width="2.5" fill="none" />
+<path d="M810,430 L813.9146898070011,438.1040239211741 L806.0853101929989,438.1040239211741 Z" fill="#8AA79C" />
+<rect x="732.0" y="338" width="160" height="90" fill="rgba(0,0,0,0.05)" rx="8" />
+<rect x="730.0" y="340" width="160" height="90" fill="#FFFFFF" rx="8" />
+<text x="810" y="380" font-size="12" fill="#7B9BA6" font-family="sans-serif" font-weight="bold" text-anchor="middle">LC-MS/MS Analysis</text>
+<text x="810" y="358" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">ESI Ionization</text>
+<text x="810" y="340" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Orbitrap MS1 Full Scan</text>
+<text x="810" y="322" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">HCD/CID Fragmentation</text>
+<text x="810" y="304" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">MS2 Spectra Acquisition</text>
+<rect x="740" y="260" width="8" height="15" fill="#7B9BA6" fill-opacity="0.5" />
+<rect x="751" y="260" width="8" height="35" fill="#7B9BA6" fill-opacity="0.5" />
+<rect x="762" y="260" width="8" height="8" fill="#7B9BA6" fill-opacity="0.5" />
+<rect x="773" y="260" width="8" height="22" fill="#7B9BA6" fill-opacity="0.5" />
+<rect x="784" y="260" width="8" height="42" fill="#7B9BA6" fill-opacity="0.5" />
+<rect x="795" y="260" width="8" height="12" fill="#7B9BA6" fill-opacity="0.5" />
+<rect x="806" y="260" width="8" height="28" fill="#7B9BA6" fill-opacity="0.5" />
+<rect x="817" y="260" width="8" height="6" fill="#7B9BA6" fill-opacity="0.5" />
+<rect x="828" y="260" width="8" height="32" fill="#7B9BA6" fill-opacity="0.5" />
+<rect x="839" y="260" width="8" height="18" fill="#7B9BA6" fill-opacity="0.5" />
+<rect x="850" y="260" width="8" height="40" fill="#7B9BA6" fill-opacity="0.5" />
+<rect x="861" y="260" width="8" height="10" fill="#7B9BA6" fill-opacity="0.5" />
+<path d="M890,380 L930,380" stroke="#7B9BA6" stroke-width="2.5" fill="none" />
+<path d="M930,380 L921.8959760788259,383.9146898070011 L921.8959760788259,376.0853101929989 Z" fill="#7B9BA6" />
+<rect x="894.5" y="348" width="175" height="100" fill="rgba(0,0,0,0.05)" rx="8" />
+<rect x="892.5" y="350" width="175" height="100" fill="#FFFFFF" rx="8" />
+<text x="980" y="395" font-size="13" fill="#7B9BA6" font-family="sans-serif" font-weight="bold" text-anchor="middle">Data Analysis</text>
+<text x="980" y="372" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Database Search</text>
+<text x="980" y="354" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Protein ID (FDR &lt; 1%)</text>
+<text x="980" y="336" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Label-Free Quantification</text>
+<text x="980" y="318" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Drug vs Control Comparison</text>
+<text x="980" y="300" font-size="9" fill="rgba(44,62,80,0.5)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Statistical Testing / Filtering</text>
+<path d="M1068,380 L1110,380" stroke="#7B9BA6" stroke-width="2.5" fill="none" />
+<path d="M1110,380 L1101.895976078826,383.9146898070011 L1101.895976078826,376.0853101929989 Z" fill="#7B9BA6" />
+<rect x="1077.0" y="338" width="110" height="105" fill="rgba(0,0,0,0.05)" rx="8" />
+<rect x="1075.0" y="340" width="110" height="105" fill="#B8956A" rx="8" />
+<text x="1130" y="388" font-size="12" fill="#FFFFFF" font-family="sans-serif" font-weight="bold" text-anchor="middle">Differential</text>
+<text x="1130" y="372" font-size="12" fill="#FFFFFF" font-family="sans-serif" font-weight="bold" text-anchor="middle">Abundance</text>
+<text x="1130" y="352" font-size="9" fill="rgba(255,255,255,0.75)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Volcano Plot</text>
+<text x="1130" y="336" font-size="9" fill="rgba(255,255,255,0.75)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Heatmap</text>
+<text x="1130" y="320" font-size="9" fill="rgba(255,255,255,0.75)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Pathway Enrichment</text>
+<text x="1130" y="304" font-size="9" fill="rgba(255,255,255,0.75)" font-family="sans-serif" font-weight="normal" text-anchor="middle">Candidate Targets</text>
+<text x="80" y="620" font-size="11" fill="#7B9BA6" font-family="sans-serif" font-weight="bold" text-anchor="middle">Sample Prep</text>
+<text x="380" y="620" font-size="11" fill="#7B9BA6" font-family="sans-serif" font-weight="bold" text-anchor="middle">Perturbation</text>
+<text x="660" y="620" font-size="11" fill="#7B9BA6" font-family="sans-serif" font-weight="bold" text-anchor="middle">Proteolysis</text>
+<text x="810" y="620" font-size="11" fill="#7B9BA6" font-family="sans-serif" font-weight="bold" text-anchor="middle">Acquisition</text>
+<text x="980" y="620" font-size="11" fill="#7B9BA6" font-family="sans-serif" font-weight="bold" text-anchor="middle">Bioinformatics</text>
+<text x="1130" y="620" font-size="11" fill="#7B9BA6" font-family="sans-serif" font-weight="bold" text-anchor="middle">Results</text>
+<path d="M30,610 L1170,610" stroke="rgba(123,155,166,0.3)" stroke-width="1" />
+</svg>

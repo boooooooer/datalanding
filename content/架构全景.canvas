@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"id":"title-tp","type":"group","x":440,"y":200,"width":440,"height":440,"label":"  tidyproteomics — 质谱蛋白质组学"},
+		{"id":"tech-stack","type":"group","x":40,"y":640,"width":1100,"height":140,"label":"  共享基础设施"},
+		{"id":"title-molsuite","type":"group","x":40,"y":200,"width":340,"height":380,"label":"  MolSuite — 分子信息与互作计算"},
+		{"id":"title-pheno","type":"group","x":860,"y":200,"width":280,"height":380,"label":"  PhenoAnalysis — 表型分析"},
+		{"id":"cq","type":"file","file":"产品/CQ.md","x":60,"y":280,"width":140,"height":60},
+		{"id":"pp","type":"file","file":"产品/PP.md","x":220,"y":280,"width":140,"height":60},
+		{"id":"me","type":"file","file":"产品/ME.md","x":60,"y":370,"width":140,"height":60},
+		{"id":"md","type":"file","file":"产品/MD.md","x":220,"y":370,"width":140,"height":60},
+		{"id":"toolbank","type":"file","file":"产品/MolToolBank.md","x":60,"y":460,"width":300,"height":60},
+		{"id":"phase1","type":"file","file":"任务/T1-ProteoViz离线化.md","x":60,"y":820,"width":220,"height":80},
+		{"id":"phase2","type":"file","file":"任务/T2-ProteoCore组件库.md","x":300,"y":820,"width":235,"height":80},
+		{"id":"proteoquant","type":"file","file":"产品/ProteoQuant.md","x":460,"y":420,"width":150,"height":50},
+		{"id":"phenoecc","type":"file","file":"产品/PhenoECC.md","x":880,"y":290,"width":240,"height":155},
+		{"id":"phase3","type":"file","file":"任务/T3-统一启动器.md","x":540,"y":820,"width":240,"height":80},
+		{"id":"r-plumber","type":"text","text":"R Plumber\n:8000\n\nR 计算引擎\ntidyproteomics / tidyLiP","x":80,"y":670,"width":200,"height":90},
+		{"id":"fasthtml","type":"text","text":"FastHTML + uvicorn\n:5001\n\n前端界面层\nhtmx · 零 JS 框架","x":480,"y":670,"width":200,"height":90},
+		{"id":"packaging","type":"text","text":"打包 & 分发\n\nPyInstaller（内测）\nNuitka（生产）\nZIP = Python+R-portable+应用","x":840,"y":670,"width":220,"height":90},
+		{"id":"phase4","type":"file","file":"任务/T4-R-portable+tpplumber.md","x":840,"y":820,"width":280,"height":80},
+		{"id":"hq","type":"file","file":"Home.md","x":450,"y":-120,"width":320,"height":80},
+		{"id":"tp-r","type":"file","file":"产品/TP.md","x":455,"y":230,"width":160,"height":50},
+		{"id":"tlip","type":"file","file":"产品/TLiP.md","x":680,"y":230,"width":150,"height":50},
+		{"id":"proteotpp","type":"file","file":"产品/ProteoTPP.md","x":540,"y":565,"width":320,"height":50},
+		{"id":"ttp","type":"file","file":"产品/TTPP.md","x":450,"y":495,"width":320,"height":50},
+		{"id":"proteolip","type":"file","file":"产品/ProteoLiP.md","x":660,"y":430,"width":150,"height":50}
+	],
+	"edges":[
+		{"id":"e-hq-ms","fromNode":"hq","fromSide":"bottom","toNode":"title-molsuite","toSide":"top"},
+		{"id":"e-hq-tp","fromNode":"hq","fromSide":"bottom","toNode":"title-tp","toSide":"top"},
+		{"id":"e-hq-pa","fromNode":"hq","fromSide":"bottom","toNode":"title-pheno","toSide":"top"},
+		{"id":"e-ttp-proteotpp","fromNode":"ttp","fromSide":"bottom","toNode":"proteotpp","toSide":"top"},
+		{"id":"e-tp-proteoquant","fromNode":"tp-r","fromSide":"bottom","toNode":"proteoquant","toSide":"top","label":"引擎"},
+		{"id":"e-tlip-proteolip","fromNode":"tlip","fromSide":"bottom","toNode":"proteolip","toSide":"top","label":"引擎"},
+		{"id":"e-bridge","fromNode":"proteolip","fromSide":"right","toNode":"md","toSide":"top","label":"Bridge: 结构→3D查看"},
+		{"id":"e-r-fh","fromNode":"r-plumber","fromSide":"right","toNode":"fasthtml","toSide":"left","label":"HTTP API"},
+		{"id":"e-t1-t2","fromNode":"phase1","fromSide":"right","toNode":"phase2","toSide":"left","label":"T1→T2"}
+	]
+}

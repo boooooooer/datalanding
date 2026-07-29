@@ -1,0 +1,24 @@
+{
+  "id": "conv-1785142450096-i7qps21tq",
+  "providerId": "claude",
+  "title": "Read DataLanding HQ architecture",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785142450109,
+  "updatedAt": 1785297778027,
+  "lastResponseAt": 1785297778027,
+  "sessionId": "984c29cb-8869-4818-b678-2f2dc1c79e56",
+  "selectedModel": "haiku",
+  "providerState": {
+    "providerSessionId": "984c29cb-8869-4818-b678-2f2dc1c79e56"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 755,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 153600,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 154355,
+    "percentage": 15
+  }
+}
