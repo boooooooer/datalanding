@@ -97,7 +97,6 @@
     "hast-util-to-jsx-runtime": "^2.3.6",
     "isomorphic-git": "^1.36.3",
     "lightningcss": "^1.33.0",
-    "lightningcss-win32-x64-msvc": "^1.33.0",
     "micromorph": "^0.4.5",
     "minimatch": "^10.1.1",
     "preact": "^10.28.2",
