@@ -8,6 +8,7 @@ configuration:
     provider: ""
   locale: zh-CN
   baseUrl: boooooooer.github.io/datalanding
+  homepage: home
   ignorePatterns:
     - private
     - templates
@@ -236,7 +237,6 @@ plugins:
     options:
       links:
         GitHub: https://github.com/boooooooer
-        Obsidian: https://obsidian.md
     layout:
       position: footer
       priority: 50
@@ -271,13 +271,6 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
-  - source: "@quartz-community/obsidian-plugin-excalidraw"
-    enabled: true
-    options:
-      enableInteraction: true
-      darkMode: auto
-      exportPadding: 20
-    order: 50
 layout:
   groups:
     toolbar:
